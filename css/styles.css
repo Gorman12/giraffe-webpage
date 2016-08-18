@@ -1,0 +1,17 @@
+.boarder {
+  margin: 40px;
+  border: 3px solid blue;
+  padding: 5px;
+  background-color: gray
+}
+
+.info {
+  color: red;
+  font-style: oblique;
+}
+
+.title{
+  font-style: italic;
+  font-weight: lighter;
+  color: green
+}
