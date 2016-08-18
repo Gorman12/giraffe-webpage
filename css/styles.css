@@ -3,15 +3,17 @@
   border: 3px solid blue;
   padding: 5px;
   background-color: gray
+
 }
 
-.info {
-  color: red;
-  font-style: oblique;
-}
+.info h3 {
+  color: powderblue;
+  font-style: normal;
+  font-family: monospace;
+  }
 
-.title{
+.title p {
   font-style: italic;
   font-weight: lighter;
-  color: green
+  color: green;
 }
