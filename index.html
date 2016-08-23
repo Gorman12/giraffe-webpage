@@ -1,16 +1,24 @@
 <!DOCTYPE html>
 <html>
+<div class="container"
+<div class="page-header">
+  <h1>Giraffes <small>Information Page</small></h1>
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     <center> <title> Giraffe </title> </center>
   </head>
   <body>
-    <div class="dropdown-backdrop">
-      <center><h1>Information page about Giraffes</h1></center>
-    <center><img src=img/giraffe.jpg alt="a photo of giraffe" height="400" width="800"></center>
+    <div class="jumbotron">
+      <center><h1>Charlie the Giraffe</h1></center>
+    </div>
+    <img src="img/giraffe.jpg" alt="a photo of giraffe" class="img-thumbnail" class="img-responsive"></center>
     <div class="title">
     <div class="info">
-
+      <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="sizing-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Username" aria-describedby="sizing-addon1">
+      </div>
       <h3> General Giraffe Info</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
@@ -26,7 +34,25 @@
       <h3>What you can do to help out the Giraffes</h3>
       <p>Here you can <a href="mailto:seanedwardgorman@gmail.com">email me here. </a>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
 
+      <form class="form-horizontal">
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputSuccess3">Input with success</label>
+    <div class="col-sm-9">
+      <input type="text" class="form-control" id="inputSuccess3" aria-describedby="inputSuccess3Status">
+      <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
+      <span id="inputSuccess3Status" class="sr-only">(success)</span>
+    </div>
+  </div>
+  <div class="form-group has-success has-feedback">
+    <label class="control-label col-sm-3" for="inputGroupSuccess2">Input group with success</label>
+    <div class="col-sm-9">
+      <div class="input-group">
+        <span class="input-group-addon">@</span>
+        <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status">
+      </div>
+
       <p>For more on the Giraffe visit <a href="https://en.wikipedia.org/wiki/Giraffe"> here</a>
+    </div>
     </div>
     </div>
     </div>
